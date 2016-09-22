@@ -1,0 +1,180 @@
+body{
+  background-color: #e1f1f6;
+  font-family: Helvetica, sans-serif;
+  color: #222;
+}
+
+.page, .page-content {
+  margin: 50px auto;
+  width: 70%;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 50px;
+}
+
+.page-header{
+  margin-bottom: 20px;
+}
+
+.page h2{
+  float: left;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: darkred;
+}
+
+.page-header .student-search  {
+  float: right;
+}
+
+.search-message {
+  /*display: inline-block;*/
+  float: right;
+  padding: 8px 80px;
+  font-size: 18px;
+  color: #4ba6c3;
+}
+
+.page-header .student-search input{
+  border-radius: 5px;
+  border: 1px solid #eaeaea;
+  padding: 8px 15px;
+  font-size: 14px;
+}
+
+.page-header .student-search button{
+  border-radius: 5px;
+  border: 1px solid #eaeaea;
+  padding: 8px 15px;
+  font-size: 14px;
+  background-color: #4ba6c3;
+  color: #fff
+}
+
+.student-item.student-page-item.cf:nth-of-type(n+11) {
+          display: none;
+}
+
+.student-list{}
+
+.student-item{
+  margin: 0 0 20px 0;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.student-details{
+  width: 50%;
+  float: left;
+}
+
+.student-details .avatar{
+  width: 40px;
+  height: auto;
+  border-radius: 20px;
+  float: left;
+  margin-right: 14px
+}
+
+.student-details h3{
+  margin: 4px 0 2px 0;
+  font-weight: bold;
+  color: #4ba6c3;
+}
+
+.student-details .email{
+  color: #888;
+  font-size: 14px;
+}
+
+.joined-details{
+  width: 50%;
+  float: left;
+  text-align: right;
+}
+
+.joined-details .date{
+  margin-top: 15px;
+  display: block;
+  font-size: 14px;
+  color: #999;
+}
+
+.student-item:last-child{
+  margin: 0;
+  padding: 0;
+  border-bottom: none;
+}
+
+.grid-container1{
+  margin-top: 5%;
+  
+}
+
+.pagination{
+  margin: 40px 0 0 0;
+  text-align: center;
+}
+ 
+.pagination li{
+  display: inline;
+}
+
+.pagination li {
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  padding: 3px 8px;
+  text-decoration: none;
+  /*color: #4ba6c3;*/
+}
+
+.pagination li:active,
+.pagination li:hover,
+.bright {
+  background-color: #4ba6c3;
+  color: #fff;
+}
+
+.hide {
+  display: none;
+}
+
+.button-bright {
+  color: #fff;
+  background-color: #4ba6c3;
+}
+
+.animation2{
+  color: darkblue;
+}
+
+/* The animation code */
+@-webkit-keyframes Animation1 {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes Animation1 {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes Animation1 {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes Animation1 {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.animation1 {
+  -webkit-animation: Animation1 3s; /* Safari 4+ */
+  -webkit-animation-iteration-count: 1;
+  -moz-animation:    Animation1 3s; 
+  -moz-animation-iteration-count: 1;
+  -o-animation:      Animation1 3s;  
+  -o-animation-iteration-count: 1;
+  animation:         Animation1 3s;
+  animation-iteration-count: 1;
+  color: darkblue;
+}
