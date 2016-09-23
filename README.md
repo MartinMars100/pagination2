@@ -18,10 +18,6 @@ No Problems Noted:
   
   Chrome 43                     Browserling, and my Chrome Browser
   Mozilla Firefox               Browserling
-  IE 11                         IE NetRenderer
+  IE 11,10, 9                   IE NetRenderer
   Safari 9.1.2                  My Imac
 
-Some Problems Found:
-  Browser                       Tool Used               Problems
-  IE 10, 9 and below            IE NetRenderer          No javascript loaded list ok but left border disappeared
-  
